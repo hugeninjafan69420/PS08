@@ -1,6 +1,6 @@
 """
 Problem Set 8 Complex Number Iterations
-NAME : {enter your name here}
+NAME : {Joe}
 
 complete the code for the functions below
 
@@ -17,7 +17,9 @@ def do_calculation(complex_num, complex_seed):
 
     Then return the new complex number
     """
-    return 0
+    result=complex_num**2 + complex_seed
+    return result
+
 
 def do_iteration(complex_num, complex_seed):
     """
@@ -34,5 +36,9 @@ def do_iteration(complex_num, complex_seed):
     (b) you have iterated 255 times
 
     When this has completed, return the number of iterations that executed
+
     """
+    result=complex_num**2 + complex_seed
+    for result in complex_num**2 + complex_seed
+    print 
     return 0
