@@ -38,7 +38,11 @@ def do_iteration(complex_num, complex_seed):
     When this has completed, return the number of iterations that executed
 
     """
-    result=complex_num**2 + complex_seed
-    for result in complex_num**2 + complex_seed
-    print result**2 + complex_seed 
-    return 0
+    x=complex_num
+    for i in range(255):
+        n=do_calculation(x,complex_seed)
+        x=n
+        # print(n)
+        if abs(x)>2:
+            break
+    return i+1
