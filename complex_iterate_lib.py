@@ -40,5 +40,5 @@ def do_iteration(complex_num, complex_seed):
     """
     result=complex_num**2 + complex_seed
     for result in complex_num**2 + complex_seed
-    print 
+    print result**2 + complex_seed 
     return 0
